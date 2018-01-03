@@ -25,22 +25,6 @@ Se implementaron las siguientes metodos de ordenamiento:
 - tendra que instanciar los objetos LlenarImprimirArreglo y TipoOrdenado, siendo de entrada - salida de arreglos y metodos de ordenamiento respectivamente.
 	
 	```csharp
-   for (int i = 0 ; i < 10; i++)
-   {
-     // Code to execute.
-   }
-	
-	static void Main(string[] args)
-        {
-            LlenarImprimirArreglo llenarImprimirArreglo = new LlenarImprimirArreglo();
-            TipoOrdenado tipoOrdenado = new TipoOrdenado();
-            var arregloInicial = llenarImprimirArreglo.LlenarArreglo();
-            Console.WriteLine("Ordenado de Burbuja");
-            llenarImprimirArreglo.Imprimir(tipoOrdenado.OrdenarBurbuja(arregloInicial));
-            Console.WriteLine("Ordenado de Shell");
-            llenarImprimirArreglo.Imprimir(tipoOrdenado.OrdenarShell(arregloInicial));
-            Console.WriteLine("Ordenado de Quick");
-            llenarImprimirArreglo.Imprimir(tipoOrdenado.OrdenarQuickSort(arregloInicial, 0, arregloInicial.Length - 1));
-            Console.ReadKey();
-        }
+	LlenarImprimirArreglo llenarImprimirArreglo = new LlenarImprimirArreglo();
+	TipoOrdenado tipoOrdenado = new TipoOrdenado();
 	
