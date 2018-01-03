@@ -14,7 +14,7 @@ namespace Ordenadores.EntradaSalidaDatos
         public int[] LlenarArreglo()
         {
             Console.WriteLine("********************************************");
-            Console.WriteLine("********** Ordenamiento Burbuja ************");
+            Console.WriteLine("************** Ordenamiento ****************");
             Console.WriteLine("********************************************");
             Console.WriteLine("¿Cuál es el tamaño del arreglo?, ingrese únicamente números enteros");            
             int cantidad = validaciones.validarNumeroEntero();
