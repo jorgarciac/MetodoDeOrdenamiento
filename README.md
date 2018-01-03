@@ -33,14 +33,19 @@ Se implementaron las siguientes metodos de ordenamiento:
 - Se deberá cargar un arreglo inicial para proceder con el ordenamiento
 
 	```csharp
-	// Almacena en variable el contenido del arreglo que se creo usando el metodo de llenar arreglo de la clase LlenarImprimirArreglo
+	/* 
+	Almacena en variable el contenido del arreglo que se creo usando el 
+	metodo de llenar arreglo de la clase LlenarImprimirArreglo 
+	*/
 	var arregloInicial = llenarImprimirArreglo.LlenarArreglo();
 	
 - En el presente se realiza la impresion del arreglo desde la libreria LlenarImprimirArreglo sabiendo que está puede ser invocada de otra forma, esta se la realizó de esta manera con el fin de realizar la impresion en la consola
 
 	```csharp
 	/*
-	Accede a la clase llenarImprimirArreglo con el metodo Imprimir, la cual recibe el metodo de ordenamiento de la clase tipoOrdenado... este último metodo es quien se encargara de ordenar el arreglo que llenamos en el anterior y lo pasamos a este metodo, este metodo me retorna un arreglo
+	Accede a la clase llenarImprimirArreglo con el metodo Imprimir, la cual recibe el metodo 
+	de ordenamiento de la clase tipoOrdenado... este último metodo es quien se encargara de 
+	ordenar el arreglo que llenamos en el anterior y lo pasamos a este metodo, este metodo me retorna un arreglo
 	*/
 	llenarImprimirArreglo.Imprimir(tipoOrdenado.OrdenarBurbuja(arregloInicial));
 	Console.WriteLine("Ordenado de Shell");
