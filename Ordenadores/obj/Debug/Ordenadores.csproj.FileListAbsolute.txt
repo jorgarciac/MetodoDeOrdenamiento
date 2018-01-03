@@ -4,3 +4,6 @@ c:\users\soporte\documents\visual studio 2015\Projects\Ordenadores\Ordenadores\b
 c:\users\soporte\documents\visual studio 2015\Projects\Ordenadores\Ordenadores\obj\Debug\Ordenadores.csprojResolveAssemblyReference.cache
 c:\users\soporte\documents\visual studio 2015\Projects\Ordenadores\Ordenadores\obj\Debug\Ordenadores.exe
 c:\users\soporte\documents\visual studio 2015\Projects\Ordenadores\Ordenadores\obj\Debug\Ordenadores.pdb
+C:\Users\Soporte\Documents\GitHub\MetodoDeOrdenamiento\Ordenadores\bin\Debug\Ordenadores.exe.config
+C:\Users\Soporte\Documents\GitHub\MetodoDeOrdenamiento\Ordenadores\obj\Debug\Ordenadores.exe
+C:\Users\Soporte\Documents\GitHub\MetodoDeOrdenamiento\Ordenadores\obj\Debug\Ordenadores.pdb
