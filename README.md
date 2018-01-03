@@ -24,6 +24,12 @@ Se implementaron las siguientes metodos de ordenamiento:
 
 - tendra que instanciar los objetos LlenarImprimirArreglo y TipoOrdenado, siendo de entrada - salida de arreglos y metodos de ordenamiento respectivamente.
 	
+	```csharp
+   for (int i = 0 ; i < 10; i++)
+   {
+     // Code to execute.
+   }
+	
 	static void Main(string[] args)
         {
             LlenarImprimirArreglo llenarImprimirArreglo = new LlenarImprimirArreglo();
